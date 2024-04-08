@@ -2125,8 +2125,13 @@ void Parser::Basic_expression( Variable & val ) {
     Sign( num_not, num_neg ) ;
     Signed_unary_exp( val ) ;  
     Token op_not = Token( "!", NOT ), op_neg = Token( "-", NEG ) ;
-    if ( num_not % 2 ) Eval( val, val, op_not ) ;
-    if ( num_neg % 2 ) Eval( val, val, op_neg ) ;
+
+    Eval( val, val, op_not ) ;
+    Eval( val, val, op_neg ) ;
+    if ( num_not % 2 == 0 ) Eval( val, val, op_not ) ;
+    if ( num_neg % 2 == 0 ) Eval( val, val, op_neg ) ;
+
+
     Romce_and_romloe( val ) ;
   } // else if 
   else if ( gfunct[gScan.mPeek.mstr] ) { // 5. supported function  
