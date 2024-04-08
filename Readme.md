@@ -1,15 +1,14 @@
 # CYCU OurC : A C-like interpreter
-[toc]
 
-## ¤ß±o&­I´º 
+## å¿ƒå¾—&èƒŒæ™¯ 
 
-1. ¤À¨É¤@¤U·íªì§¹¦¨PLªº¹Lµ{¡A¥»¤H¾Ç¸¹107¶}ÀY (¤£©È¦ºªº´N§Û§a)
+1. åˆ†äº«ä¸€ä¸‹ç•¶åˆå®ŒæˆPLçš„éç¨‹ï¼Œæœ¬äººå­¸è™Ÿ107é–‹é ­ (ä¸æ€•æ­»çš„å°±æŠ„å§)
 
-2. µ´¹ï¤£¥Î­n vector.back() ¨Ó¨ú±ovectorªº³Ì«á¤@­Ó¸ê·½¡A§Ú¦]¬°³o­Ó®tÂI©ñ±óProj4. ªº«á¥b³¡¡A«á¨Ó²q¨ì¤£¯à¥Î¤~¥ş¹L...
+2. çµ•å°ä¸ç”¨è¦ vector.back() ä¾†å–å¾—vectorçš„æœ€å¾Œä¸€å€‹è³‡æºï¼Œæˆ‘å› ç‚ºé€™å€‹å·®é»æ”¾æ£„Proj4. çš„å¾ŒåŠéƒ¨ï¼Œå¾Œä¾†çŒœåˆ°ä¸èƒ½ç”¨æ‰å…¨é...
 
-3. ¦pªG¦³µo²{¥ô¦óBug¡AÅwªïÁpÃ´§Ú~
+3. å¦‚æœæœ‰ç™¼ç¾ä»»ä½•Bugï¼Œæ­¡è¿è¯ç¹«æˆ‘~
 
-## OurC¶}µo¤é»x
+## OurCé–‹ç™¼æ—¥èªŒ
 
 ### Project2 
 Proj. 2 is the first part of OurC project (there are three parts). 
@@ -24,7 +23,7 @@ you are to implement a syntax checker and a pretty printer that supports system-
 - 4/17 fixing grammer **end with 2784 lines** 
 - 4/18 coding on sematic check **end with 3000 lines** 
     - solving erorr + peektoken+ encounter // comment
-- 4/19 ¥dÁôÂÃ Àu¤Æ«á**end with 2229 lines** 
+- 4/19 å¡éš±è— å„ªåŒ–å¾Œ**end with 2229 lines** 
     1. cout << A() ;
     2. pretty print of if else while without { }
     3. statement should include supported function 
